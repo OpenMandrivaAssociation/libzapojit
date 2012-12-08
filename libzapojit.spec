@@ -6,12 +6,12 @@
 
 Summary:	GLib/GObject wrapper for Skydrive and Hotmail
 Name:		libzapojit
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	GPLv2+
 Group:		System/Libraries
 URL:		http://gnome.org	
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}-%{version}.tar.xz
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/0.0/%{name}-%{version}.tar.xz
 
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(goa-1.0)
@@ -74,4 +74,14 @@ This package contains files needed for development with %{name}.
 %{_datadir}/gir-1.0/Zpj-0.0.gir
 %{_libdir}/libzapojit-%{api}.so
 %{_libdir}/pkgconfig/*
+
+
+
+%changelog
+* Tue Oct 16 20012 Arkady L. Shane <ashejn@rosalab.ru> 0.0.2-1
+- update to 0.0.2
+
+* Thu May 31 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.0.1-1
++ Revision: 801478
+- imported package libzapojit
 
