@@ -9,7 +9,7 @@
 Summary:	GLib/GObject wrapper for Skydrive and Hotmail
 Name:		libzapojit
 Version:	0.0.2
-Release:	3
+Release:	4
 License:	GPLv2+
 Group:		System/Libraries
 Url:		http://gnome.org	
