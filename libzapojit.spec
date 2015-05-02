@@ -3,16 +3,16 @@
 %define	api	0.0
 %define major	0
 %define	libname	%mklibname	zapojit %{api} %{major}
-%define	girname	%mklibname	zapojit-gir %{api} 
+%define	girname	%mklibname	zapojit-gir %{api}
 %define	devname	%mklibname	zapojit	-d
 
 Summary:	GLib/GObject wrapper for Skydrive and Hotmail
 Name:		libzapojit
-Version:	0.0.2
+Version:	 0.0.3
 Release:	8
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://gnome.org	
+Url:		http://gnome.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libzapojit/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	intltool
