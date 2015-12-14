@@ -5,6 +5,7 @@
 %define	libname	%mklibname	zapojit %{api} %{major}
 %define	girname	%mklibname	zapojit-gir %{api}
 %define	devname	%mklibname	zapojit	-d
+%define _disable_rebuild_configure 1
 
 Summary:	GLib/GObject wrapper for Skydrive and Hotmail
 Name:		libzapojit
