@@ -13,7 +13,7 @@ Version:	 0.0.3
 Release:	15
 License:	GPLv2+
 Group:		System/Libraries
-Url:		http://gnome.org
+Url:		https://gnome.org
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libzapojit/%{url_ver}/%{name}-%{version}.tar.xz
 
 BuildRequires:	intltool
